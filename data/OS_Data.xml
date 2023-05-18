@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Routenplaner>
+    <Background file="./data/karte.png" />
+    <Nodes>
+        <Node x="565" y="175" name="Bad_Essen"/>
+        <Node x="348" y="375" name="Bad_Iburg"/>
+        <Node x="440" y="275" name="Bissendorf"/>
+        <Node x="540" y="435" name="Borgholzhausen"/>
+        <Node x="305" y="70" name="Bramsche"/>
+        <Node x="365" y="310" name="GM-Huette"/>
+        <Node x="320" y="460" name="Glandorf"/>
+        <Node x="110" y="225" name="Ibbenbueren"/>
+        <Node x="125" y="390" name="Ladbergen"/>
+        <Node x="210" y="330" name="Lengerich"/>
+        <Node x="565" y="315" name="Melle"/>
+        <Node x="200" y="55" name="Neuenkirchen"/>
+        <Node x="355" y="235" name="Osnabrueck"/>
+        <Node x="480" y="145" name="Ostercappeln"/>
+        <Node x="330" y="140" name="Wallenhorst"/>
+        <Node x="225" y="180" name="Westerkappeln"/>
+    </Nodes>
+    <Edges>
+        <Edge distance="17.5" from="Bad_Essen" to="Melle" blocked="false"/>
+        <Edge distance="9.6" from="Bad_Essen" to="Ostercappeln" blocked="false"/>
+        <Edge distance="8.9" from="Bad_Iburg" to="Glandorf" blocked="false"/>
+        <Edge distance="14.6" from="Bissendorf" to="Melle" blocked="false"/>
+        <Edge distance="9.3" from="Bissendorf" to="Osnabrueck" blocked="false"/>
+        <Edge distance="16.1" from="Bissendorf" to="Ostercappeln" blocked="false"/>
+        <Edge distance="26.2" from="Borgholzhausen" to="Glandorf" blocked="false"/>
+        <Edge distance="8.2" from="Borgholzhausen" to="Melle" blocked="false"/>
+        <Edge distance="9.7" from="Bramsche" to="Neuenkirchen" blocked="false"/>
+        <Edge distance="8.5" from="Bramsche" to="Wallenhorst" blocked="false"/>
+        <Edge distance="5.4" from="GM-Huette" to="Bad_Iburg" blocked="false"/>
+        <Edge distance="9.3" from="GM-Huette" to="Lengerich" blocked="false"/>
+        <Edge distance="7.1" from="GM-Huette" to="Osnabrueck" blocked="false"/>
+        <Edge distance="26.2" from="Glandorf" to="Borgholzhausen" blocked="false"/>
+        <Edge distance="21.1" from="Ibbenbueren" to="Ladbergen" blocked="false"/>
+        <Edge distance="31.4" from="Ibbenbueren" to="Osnabrueck" blocked="false"/>
+        <Edge distance="13.5" from="Ibbenbueren" to="Westerkappeln" blocked="false"/>
+        <Edge distance="21.1" from="Ladbergen" to="Ibbenbueren" blocked="false"/>
+        <Edge distance="10.9" from="Ladbergen" to="Lengerich" blocked="false"/>
+        <Edge distance="9.3" from="Lengerich" to="GM-Huette" blocked="false"/>
+        <Edge distance="17.5" from="Melle" to="Bad_Essen" blocked="false"/>
+        <Edge distance="14.6" from="Melle" to="Bissendorf" blocked="false"/>
+        <Edge distance="8.2" from="Melle" to="Borgholzhausen" blocked="false"/>
+        <Edge distance="9.7" from="Neuenkirchen" to="Bramsche" blocked="false"/>
+        <Edge distance="15.1" from="Neuenkirchen" to="Westerkappeln" blocked="false"/>
+        <Edge distance="9.3" from="Osnabrueck" to="Bissendorf" blocked="false"/>
+        <Edge distance="7.1" from="Osnabrueck" to="GM-Huette" blocked="false"/>
+        <Edge distance="31.4" from="Osnabrueck" to="Ibbenbueren" blocked="false"/>
+        <Edge distance="16.1" from="Ostercappeln" to="Bissendorf" blocked="false"/>
+        <Edge distance="14.1" from="Ostercappeln" to="Wallenhorst" blocked="false"/>
+        <Edge distance="8.5" from="Wallenhorst" to="Bramsche" blocked="false"/>
+        <Edge distance="10.7" from="Wallenhorst" to="Osnabrueck" blocked="false"/>
+        <Edge distance="13.5" from="Westerkappeln" to="Ibbenbueren" blocked="false"/>
+        <Edge distance="15.1" from="Westerkappeln" to="Neuenkirchen" blocked="false"/>
+    </Edges>
+</Routenplaner>
